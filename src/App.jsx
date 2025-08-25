@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col items-center p-10">
         <img className="absolute top-0 right-0 left-0  -z-10 object-cover w-full h-[45%]" src="./bg.png" alt="" />
-      <h1 className="text-5xl font-bold  mb-10">TODO</h1>
+      <h1 className="text-5xl font-bold text-white mb-10">TODO</h1>
 
       <form onSubmit={addTodo} className="w-full flex justify-between bg-white rounded-[9px] max-w-md">
         <input
